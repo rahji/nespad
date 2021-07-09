@@ -1,14 +1,16 @@
-# Arduino Libraries for Nintendo Gamepads (NESpad & SNESpad)
+# NESpad & SNESpad
+
+These are Arduino Libraries for interfacing with Nintendo Game Pads. If you are using a Super Nintendo game pad, replace `nes` with `snes` everywhere below.
 
 ## Installation
 
-1. Copy the `NESpad` and `SNESpad` folders into your `Arduino/hardware/libraries` folder.
+1. Copy the `NESpad` folder into your `Arduino/hardware/libraries` folder.
 2. Restart the Arduino IDE
 
 ## Usage
 
 To use this library in a sketch, go to the `Sketch | Import Library` menu and
-select NESpad or SNESpad. This will add a corresponding include line to the top of your sketch.
+select NESpad. This will add a corresponding include line to the top of your sketch.
 
 ## Making Changes to the Library
 
