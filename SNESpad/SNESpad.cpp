@@ -19,8 +19,13 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.  
 */
 
-#include "SNESpad.h"
-#include "WProgram.h"
+#if defined(ARDUINO) && ARDUINO >= 100
+  #include "Arduino.h"
+  #include "SNESpad.h"
+#else
+  #include "WProgram.h"
+  #include "SNESpad.h"
+#endif
 
 // change the next three lines if necessary
 // arduino pins and their connection to the nes joystick
